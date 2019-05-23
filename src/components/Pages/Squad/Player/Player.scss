@@ -1,0 +1,44 @@
+@import "../../../../assets/scss/all.scss";
+
+.Player {
+  display: flex;
+  flex-direction: row;
+  height: 10rem;
+  background-color: #393939;
+  border: solid 1px #393939;
+  max-width: 50rem;
+  margin: 2rem auto;
+  @include for-tablet-portrait-up {
+    height: 15rem;
+  }
+  & img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.PlayerImage {
+  background-color: #f1f1f1;
+  min-width: 10rem;
+  height: 100%;
+  @include for-tablet-portrait-up {
+    min-width: 15rem;
+  }
+}
+
+.PlayerInfo {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include for-tablet-portrait-up {
+    padding: 1rem;
+  }
+  @include for-tablet-landscape-up {
+    padding: 2rem 1rem;
+  }
+}

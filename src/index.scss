@@ -1,0 +1,64 @@
+@import "assets/scss/all.scss";
+@import "./components/App/App.scss";
+@import "./components/Layout/CloseButton/CloseButton.scss";
+@import "./components/Layout/Footer/Footer.scss";
+@import "./components/Layout/Logo/Logo.scss";
+@import "./components/Layout/Modal/Modal.scss";
+@import "./components/Layout/PaginationLinks/PaginationLink/PaginationLink.scss";
+@import "./components/Layout/PaginationLinks/PaginationLinks.scss";
+@import "./components/Layout/Spinner/Spinner.scss";
+@import "./components/Pages/About//About.scss";
+@import "./components/Pages/Fixtures/Fixture/Fixture.scss";
+@import "./components/Pages/Fixtures/Fixtures.scss";
+@import "./components/Pages/Home/HomeLinks/HomeLink/HomeLink.scss";
+@import "./components/Pages/Home/HomeLinks/HomeLinks.scss";
+@import "./components/Pages/Home/Home.scss";
+@import "./components/Pages/OldTrafford/OldTrafford.scss";
+@import "./components/Pages/Squad/Player/Player.scss";
+@import "./components/Pages/Squad/Squad.scss";
+@import "./components/Pages/Standings/Standings.scss";
+
+// Reset element default styles
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //Defines 1rem
+  font-size: 62.5%; //1rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+  box-sizing: border-box; // Includes padding and border in element w/h
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fade {
+  &-enter {
+    opacity: 0.01;
+  }
+
+  &-enter-active {
+    opacity: 1;
+    transition: all 1s ease;
+  }
+
+  &-exit {
+    opacity: 1;
+  }
+
+  &-exit-active {
+    opacity: 0.01;
+    transition: all 1s ease;
+  }
+}

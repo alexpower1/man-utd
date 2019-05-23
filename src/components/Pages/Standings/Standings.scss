@@ -1,0 +1,9 @@
+@import "../../../assets/scss/all.scss";
+
+.Standings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 120rem;
+  margin: 0 auto;
+}

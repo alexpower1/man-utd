@@ -1,0 +1,46 @@
+@import "../../../../assets/scss/all.scss";
+
+.Fixture {
+  border-top: 2rem solid transparent;
+}
+
+.HomeTeam,
+.AwayTeam,
+.Centre {
+  font-weight: $bold;
+  padding: 0.5rem;
+}
+
+.HomeTeam,
+.AwayTeam {
+  width: 40%;
+  @include for-tablet-portrait-up {
+    width: 45%;
+  }
+}
+
+.HomeTeam {
+  text-align: right;
+}
+
+.AwayTeam {
+  text-align: left;
+}
+
+.Centre {
+  background-color: #393939;
+  color: white;
+  width: 20%;
+  @include for-tablet-portrait-up {
+    width: 10%;
+  }
+}
+
+.MatchDate {
+  border-top: 1.5rem solid transparent;
+  font-size: 1.3rem;
+}
+
+.FutureGame {
+  background-color: $colour-secondary;
+}

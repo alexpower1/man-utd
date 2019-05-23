@@ -1,0 +1,11 @@
+@import "../../../assets/scss/all.scss";
+
+.Fixtures {
+  margin: 0 auto;
+  text-align: center;
+
+  & table {
+    margin: 0 auto 5rem auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+table {
+  max-width: 100%;
+  font-size: 1.5rem;
+  line-height: $small-line-height;
+  font-family: $head-font-family;
+}
+
+th {
+  text-align: left;
+  background-color: #cfcdcd;
+}
+
+th,
+td {
+  padding: 1rem 0.4rem;
+  @include for-tablet-portrait-up {
+    padding: 0.5rem;
+  }
+}
+
+tr {
+  transition: all 0.2s;
+}
+
+tr:nth-child(even) {
+  background-color: #ebebeb;
+}

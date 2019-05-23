@@ -1,0 +1,26 @@
+.About {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+  & * {
+    text-align: left;
+  }
+  & p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  & h1 {
+    margin-top: 4rem;
+  }
+  & h3 {
+    margin: 3rem 0;
+  }
+
+  & a {
+    color: $colour-secondary;
+    transition: all 0.2s;
+    &:hover {
+      color: $colour-primary;
+    }
+  }
+}

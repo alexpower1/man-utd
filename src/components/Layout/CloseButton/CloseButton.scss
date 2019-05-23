@@ -1,0 +1,30 @@
+@import "../../../assets/scss/all.scss";
+
+.CloseButton {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.CloseButton:hover {
+  opacity: 1;
+}
+.CloseButton:before,
+.CloseButton:after {
+  position: absolute;
+  left: 1.5rem;
+  content: " ";
+  height: 3.3rem;
+  width: 2px;
+  background-color: $colour-primary;
+}
+.CloseButton:before {
+  transform: rotate(45deg);
+}
+.CloseButton:after {
+  transform: rotate(-45deg);
+}

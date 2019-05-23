@@ -1,0 +1,12 @@
+@import "../../../assets/scss/all.scss";
+
+.Modal {
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #e7e7e7;
+  padding-top: 5rem;
+  transition: all 0.5s;
+}

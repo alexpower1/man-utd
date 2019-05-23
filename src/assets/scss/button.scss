@@ -1,0 +1,26 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+button {
+  width: 15rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border: none;
+  font-family: $head-font-family;
+  font-size: 2rem;
+  color: white;
+  background-color: $colour-primary;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    background-color: $colour-secondary;
+  }
+  &:disabled {
+    background-color: grey;
+    cursor: default;
+    &:hover {
+      background-color: grey;
+    }
+  }
+}

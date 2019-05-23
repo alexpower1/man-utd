@@ -1,0 +1,12 @@
+@import "../../../assets/scss/all.scss";
+
+.Logo {
+  width: 10rem;
+  height: 10rem;
+  margin: 0.5rem 0;
+  @include for-regular-phone-up {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 0;
+  }
+}

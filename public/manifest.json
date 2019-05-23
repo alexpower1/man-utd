@@ -1,0 +1,15 @@
+{
+  "short_name": "Man Utd Project",
+  "name": "Alex Power - Man Utd Project",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

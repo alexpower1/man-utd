@@ -1,0 +1,19 @@
+@import "../../assets/scss/all.scss";
+
+.App {
+  overflow: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: $colour-primary;
+  background: linear-gradient(
+    180deg,
+    rgba(218, 41, 28, 1) 0%,
+    rgba(123, 1, 1, 1) 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
