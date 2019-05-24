@@ -50,7 +50,7 @@ body {
 
   &-enter-active {
     opacity: 1;
-    transition: all 1s ease;
+    transition: all 0.3s ease;
   }
 
   &-exit {
@@ -59,6 +59,6 @@ body {
 
   &-exit-active {
     opacity: 0.01;
-    transition: all 1s ease;
+    transition: all 0.3s ease;
   }
 }

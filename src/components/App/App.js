@@ -20,7 +20,7 @@ class App extends Component {
         <CSSTransition
           in={this.state.showModal}
           classNames="fade"
-          timeout={1000}
+          timeout={300}
           unmountOnExit
         >
           <Modal
